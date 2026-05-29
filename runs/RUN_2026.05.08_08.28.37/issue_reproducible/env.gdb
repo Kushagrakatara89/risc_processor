@@ -1,0 +1,36 @@
+set env CELL_PAD_EXCLUDE sky130_fd_sc_hd__tap* sky130_fd_sc_hd__decap* sky130_ef_sc_hd__decap* sky130_fd_sc_hd__fill*
+set env CURRENT_DEF ./tmp/routing/21-diodes.def
+set env CURRENT_NETLIST ./tmp/routing/19-io_diode_legalized.nl.v
+set env CURRENT_ODB ./tmp/routing/21-diodes.odb
+set env CURRENT_POWERED_NETLIST ./tmp/routing/19-io_diode_legalized.pnl.v
+set env CURRENT_SDC ./tmp/17-pipelined_processor.sdc
+set env DESIGN_NAME pipelined_processor
+set env DIODE_CELL sky130_fd_sc_hd__diode_2
+set env DIODE_PADDING 2
+set env DPL_CELL_PADDING 0
+set env FP_PDN_ENABLE_GLOBAL_CONNECTIONS 1
+set env FP_PDN_ENABLE_MACROS_GRID 1
+set env GND_NET VGND
+set env LIB_TYPICAL pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+set env MAX_FANOUT_CONSTRAINT 6
+set env MAX_TRANSITION_CONSTRAINT 0.75
+set env MERGED_LEF ./tmp/merged.nom.lef
+set env OUTPUT_CAP_LOAD 33.442
+set env PACKAGED_SCRIPT_0 openlane/scripts/openroad/dpl.tcl
+set env PACKAGED_SCRIPT_1 openlane/scripts/openroad/common/io.tcl
+set env PACKAGED_SCRIPT_2 openlane/scripts/openroad/common/dpl_cell_pad.tcl
+set env PACKAGED_SCRIPT_3 ./tmp/17-pipelined_processor.sdc
+set env PACKAGED_SCRIPT_4 openlane/scripts/openroad/common/set_global_connections.tcl
+set env PL_MAX_DISPLACEMENT_X 500
+set env PL_MAX_DISPLACEMENT_Y 100
+set env PL_OPTIMIZE_MIRRORING 1
+set env PROCESS_CORNER nom
+set env SAVE_DEF ./tmp/routing/21-diodes_legalized.def
+set env SAVE_NETLIST ./out.v
+set env SAVE_ODB ./tmp/routing/21-diodes_legalized.odb
+set env SAVE_POWERED_NETLIST ./tmp/routing/21-diodes_legalized.pnl.v
+set env SCRIPTS_DIR openlane/scripts
+set env STA_PRE_CTS 0
+set env STD_CELL_GROUND_PINS VGND VNB
+set env STD_CELL_POWER_PINS VPWR VPB
+set env VDD_NET VPWR

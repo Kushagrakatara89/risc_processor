@@ -1,0 +1,10 @@
+VPWR power 1.8
+VGND power 0.0
+#define std_input min@VGND max@VPWR
+clk input std_input
+instr_we input std_input
+reset input std_input
+debug_mem_addr[5:0] input std_input
+debug_reg_addr[2:0] input std_input
+instr_waddr[3:0] input std_input
+instr_wdata[15:0] input std_input

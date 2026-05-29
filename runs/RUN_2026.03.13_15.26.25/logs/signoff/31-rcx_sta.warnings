@@ -1,0 +1,5 @@
+Warning: /openlane/designs/my_processor/runs/RUN_2026.03.13_15.26.25/results/routing/pipelined_processor.nl.v line 44079, module sky130_fd_sc_hd__tapvpwrvgnd_1 not found. Creating black box for TAP_352.
+Warning: /openlane/designs/my_processor/runs/RUN_2026.03.13_15.26.25/results/routing/pipelined_processor.nl.v line 51308, module sky130_ef_sc_hd__decap_12 not found. Creating black box for FILLER_0_0_9.
+Warning: /openlane/designs/my_processor/runs/RUN_2026.03.13_15.26.25/results/routing/pipelined_processor.nl.v line 51310, module sky130_fd_sc_hd__fill_1 not found. Creating black box for FILLER_0_0_27.
+Warning: /openlane/designs/my_processor/runs/RUN_2026.03.13_15.26.25/results/routing/pipelined_processor.nl.v line 51321, module sky130_fd_sc_hd__fill_2 not found. Creating black box for FILLER_0_0_138.
+[WARNING] Did not save OpenROAD database!

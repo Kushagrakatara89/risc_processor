@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 100000 100000
+string GDS_END 26646028
+string GDS_FILE /openlane/designs/my_processor/runs/RUN_2026.05.08_07.54.42/results/signoff/pipelined_processor.magic.gds
+string GDS_START 1025668
+<< end >>

@@ -1,0 +1,41 @@
+#!/bin/sh
+dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
+cd $dir;
+export CELL_PAD_EXCLUDE='sky130_fd_sc_hd__tap* sky130_fd_sc_hd__decap* sky130_ef_sc_hd__decap* sky130_fd_sc_hd__fill*';
+export CURRENT_DEF='./tmp/routing/21-diodes.def';
+export CURRENT_NETLIST='./tmp/routing/19-io_diode_legalized.nl.v';
+export CURRENT_ODB='./tmp/routing/21-diodes.odb';
+export CURRENT_POWERED_NETLIST='./tmp/routing/19-io_diode_legalized.pnl.v';
+export CURRENT_SDC='./tmp/17-pipelined_processor.sdc';
+export DESIGN_NAME='pipelined_processor';
+export DIODE_CELL='sky130_fd_sc_hd__diode_2';
+export DIODE_PADDING='2';
+export DPL_CELL_PADDING='0';
+export FP_PDN_ENABLE_GLOBAL_CONNECTIONS='1';
+export FP_PDN_ENABLE_MACROS_GRID='1';
+export GND_NET='VGND';
+export LIB_TYPICAL='pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib';
+export MAX_FANOUT_CONSTRAINT='6';
+export MAX_TRANSITION_CONSTRAINT='0.75';
+export MERGED_LEF='./tmp/merged.nom.lef';
+export OUTPUT_CAP_LOAD='33.442';
+export PACKAGED_SCRIPT_0='openlane/scripts/openroad/dpl.tcl';
+export PACKAGED_SCRIPT_1='openlane/scripts/openroad/common/io.tcl';
+export PACKAGED_SCRIPT_2='openlane/scripts/openroad/common/dpl_cell_pad.tcl';
+export PACKAGED_SCRIPT_3='./tmp/17-pipelined_processor.sdc';
+export PACKAGED_SCRIPT_4='openlane/scripts/openroad/common/set_global_connections.tcl';
+export PL_MAX_DISPLACEMENT_X='500';
+export PL_MAX_DISPLACEMENT_Y='100';
+export PL_OPTIMIZE_MIRRORING='1';
+export PROCESS_CORNER='nom';
+export SAVE_DEF='./tmp/routing/21-diodes_legalized.def';
+export SAVE_NETLIST='./out.v';
+export SAVE_ODB='./tmp/routing/21-diodes_legalized.odb';
+export SAVE_POWERED_NETLIST='./tmp/routing/21-diodes_legalized.pnl.v';
+export SCRIPTS_DIR='openlane/scripts';
+export STA_PRE_CTS='0';
+export STD_CELL_GROUND_PINS='VGND VNB';
+export STD_CELL_POWER_PINS='VPWR VPB';
+export VDD_NET='VPWR';
+TOOL_BIN=${TOOL_BIN:-openroad}
+$TOOL_BIN -exit $PACKAGED_SCRIPT_0

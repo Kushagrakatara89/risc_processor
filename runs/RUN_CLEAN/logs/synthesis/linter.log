@@ -1,0 +1,44 @@
+%Warning-WIDTHEXPAND: /openlane/designs/my_processor/src/topModule.v:535:38: Operator ADD expects 16 bits on the RHS, but RHS's VARREF 'address_offset' generates 3 bits.
+                                                                           : ... In instance pipelined_processor
+  535 |     assign addr_in_dm = address_base + address_offset;
+      |                                      ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.009
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: /openlane/designs/my_processor/src/topModule.v:125:17: Signal is not driven, nor used: 'ir_out_from_id_rr'
+                                                                            : ... In instance pipelined_processor
+  125 |     wire [15:0] ir_out_from_id_rr, ir_out_from_rr_ex;
+      |                 ^~~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/my_processor/src/topModule.v:128:17: Signal is not driven, nor used: 'seperate_control_for_pc_select_at_ex'
+                                                                            : ... In instance pipelined_processor
+  128 |     wire        seperate_control_for_pc_select_at_ex;
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/my_processor/src/topModule.v:197:32: Signal is not used: 'ir_at_wb'
+                                                                            : ... In instance pipelined_processor
+  197 |     wire [15:0] rd_data_at_wb, ir_at_wb;
+      |                                ^~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/my_processor/src/dataMem.v:8:21: Bits of signal are not used: 'mem_access_addr'[15:6]
+                                                                        : ... In instance pipelined_processor.dmem
+    8 |     input   [15:0]  mem_access_addr,
+      |                     ^~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/my_processor/src/loadStoreMultiple.v:11:20: Bits of signal are not used: 'reg_data_form_id_128'[127:112]
+                                                                                   : ... In instance pipelined_processor.la_sa_lm_sm_block
+   11 |     input  [127:0] reg_data_form_id_128,
+      |                    ^~~~~~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/my_processor/src/loadStoreMultiple.v:12:20: Bits of signal are not used: 'ir'[11:8]
+                                                                                   : ... In instance pipelined_processor.la_sa_lm_sm_block
+   12 |     input  [15:0]  ir, rf_d2,
+      |                    ^~
+%Warning-UNUSEDSIGNAL: /openlane/designs/my_processor/src/aluCtrl.v:6:19: Bits of signal are not used: 'instr'[11:2]
+                                                                        : ... In instance pipelined_processor.alu_control
+    6 |     input  [15:0] instr,
+      |                   ^~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/my_processor/src/ALU.v:12:16: Bits of signal are not used: 'total_sum'[16]
+                                                                     : ... In instance pipelined_processor.alu_execute
+   12 |     reg [16:0] total_sum;
+      |                ^~~~~~~~~
+%Warning-COMBDLY: /openlane/designs/my_processor/src/topModule.v:383:23: Non-blocking assignment '<=' in combinational logic process
+                                                                       : ... This will be executed as a blocking assignment '='!
+  383 |             zero_flag <= zero_flag_in;
+      |                       ^~
+                  *** See https://verilator.org/warn/COMBDLY before disabling this,
+                  else you may end up with different sim results.

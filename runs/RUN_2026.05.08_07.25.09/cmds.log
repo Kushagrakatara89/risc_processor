@@ -1,0 +1,24 @@
+Fri May 08 07:25:09 UTC 2026 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/lefutil.py get_metal_layers -o /openlane/designs/my_processor/runs/RUN_2026.05.08_07.25.09/tmp/layers.list /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef"
+
+Fri May 08 07:25:09 UTC 2026 - Executing "/openlane/scripts/mergeLef.py -o /openlane/designs/my_processor/runs/RUN_2026.05.08_07.25.09/tmp/merged.nom.lef -i /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef {/home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef} |& tee /dev/null"
+
+Fri May 08 07:25:10 UTC 2026 - Executing "/openlane/scripts/mergeLef.py -o /openlane/designs/my_processor/runs/RUN_2026.05.08_07.25.09/tmp/merged.min.lef -i /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__min.tlef {/home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef} |& tee /dev/null"
+
+Fri May 08 07:25:10 UTC 2026 - Executing "/openlane/scripts/mergeLef.py -o /openlane/designs/my_processor/runs/RUN_2026.05.08_07.25.09/tmp/merged.max.lef -i /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__max.tlef {/home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef} |& tee /dev/null"
+
+Fri May 08 07:25:10 UTC 2026 - Executing "python3 /openlane/scripts/mergeLib.py --output /openlane/designs/my_processor/runs/RUN_2026.05.08_07.25.09/tmp/synthesis/merged.lib --name sky130A_merged /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+
+Fri May 08 07:25:10 UTC 2026 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /openlane/designs/my_processor/runs/RUN_2026.05.08_07.25.09/tmp/synthesis/trimmed.lib.exclude.list --output /openlane/designs/my_processor/runs/RUN_2026.05.08_07.25.09/tmp/synthesis/trimmed.lib /openlane/designs/my_processor/runs/RUN_2026.05.08_07.25.09/tmp/synthesis/merged.lib"
+
+Fri May 08 07:25:10 UTC 2026 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /openlane/designs/my_processor/runs/RUN_2026.05.08_07.25.09/tmp/cts/cts.lib.exclude.list --output /openlane/designs/my_processor/runs/RUN_2026.05.08_07.25.09/tmp/cts/cts.lib /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+
+Fri May 08 07:25:10 UTC 2026 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /openlane/designs/my_processor/runs/RUN_2026.05.08_07.25.09/tmp/cts/cts-fastest.lib.exclude.list --output /openlane/designs/my_processor/runs/RUN_2026.05.08_07.25.09/tmp/cts/cts-fastest.lib /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib"
+
+Fri May 08 07:25:10 UTC 2026 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /openlane/designs/my_processor/runs/RUN_2026.05.08_07.25.09/tmp/cts/cts-slowest.lib.exclude.list --output /openlane/designs/my_processor/runs/RUN_2026.05.08_07.25.09/tmp/cts/cts-slowest.lib /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib"
+
+Fri May 08 07:25:11 UTC 2026 - Executing "python3 /openlane/scripts/new_tracks.py -i /home/kushagra/.ciel/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tracks.info -o /openlane/designs/my_processor/runs/RUN_2026.05.08_07.25.09/tmp/routing/config.tracks"
+
+Fri May 08 07:25:11 UTC 2026 - Executing "echo {OpenLane ff5509f65b17bfa4068d5336495ab1718987ff69} > /openlane/designs/my_processor/runs/RUN_2026.05.08_07.25.09/OPENLANE_COMMIT"
+
+Fri May 08 07:25:11 UTC 2026 - Executing "bash -c {verilator  --lint-only  -Wall  --Wno-DECLFILENAME  --top-module pipelined_processor  /openlane/designs/my_processor/src/ALU.v /openlane/designs/my_processor/src/aluCtrl.v /openlane/designs/my_processor/src/ctrlUnit.v /openlane/designs/my_processor/src/frwdingCntrl.v /openlane/designs/my_processor/src/registerBank.v /openlane/designs/my_processor/src/memory.v /openlane/designs/my_processor/src/pipeline_regs.v /openlane/designs/my_processor/src/processor.v -Wno-fatal --relative-includes |& tee /openlane/designs/my_processor/runs/RUN_2026.05.08_07.25.09/logs/synthesis/linter.log /dev/null}"
+

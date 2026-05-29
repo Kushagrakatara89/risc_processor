@@ -1,0 +1,828 @@
+
+Magic 8.3 revision 413 - Compiled on Wed Jul 12 10:04:40 UTC 2023.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.493-0-g0fe599b
+Reading LEF data from file /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef.
+This action cannot be undone.
+LEF read, Line 82 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 83 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 116 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 118 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 119 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 125 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 126 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 127 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 160 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 168 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 169 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 171 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 172 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 173 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 210 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 211 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 213 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 214 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 215 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 252 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 253 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 255 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 256 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 257 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 294 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 295 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read: Processed 801 lines.
+Reading DEF data from file /openlane/designs/my_processor/runs/RUN_2026.03.25_18.32.13/results/routing/pipelined_processor.def.
+This action cannot be undone.
+  Processed 4 vias total.
+Cell sky130_fd_sc_hd__diode_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__decap_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__fill_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_ef_sc_hd__decap_12 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__decap_8 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__decap_6 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__fill_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__decap_3 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkbuf_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__mux4_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__buf_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__buf_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__mux2_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkbuf_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__mux2_8 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__mux2_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkbuf_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__buf_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__mux2_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__dlymetal6s2s_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__inv_6 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__inv_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or2_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkbuf_8 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21o_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and2_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o221a_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a31o_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o211a_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__buf_8 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor2_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21ai_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o32a_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__buf_6 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21o_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a31o_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21o_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__mux4_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkinv_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and3_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and3b_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor3_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a22o_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a221o_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand2_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a211o_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o22a_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or3_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand2_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__xnor2_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o2bb2ai_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand3_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand2_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or3b_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__xor2_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21oi_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or2b_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and2_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__xnor2_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__xor2_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or3_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21oi_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and2b_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or3b_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__xor2_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21a_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor2_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor2_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o41a_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__xnor2_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o2bb2a_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and4_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or3b_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o31a_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a221oi_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21bai_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o211a_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o31a_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21ai_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21bai_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or2_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or2b_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor3_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a211oi_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a2bb2o_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o311a_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o2111a_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o211ai_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21ai_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o22ai_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o31ai_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o2111ai_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a311o_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a2bb2o_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a311o_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a22oi_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o2bb2a_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o211ai_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o311ai_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o31ai_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o221a_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a2bb2o_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a2111o_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21ba_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and4bb_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21bo_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o311a_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand2b_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or2_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand3_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o22ai_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a211oi_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and3_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor3b_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a211oi_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o211ai_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4b_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4b_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o2111ai_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and4b_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor2b_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a41o_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a2111oi_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a32o_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21oi_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a22oi_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor2_8 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand4b_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a211o_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4bb_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21ba_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21bai_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand3_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and4b_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o22ai_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o221ai_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a31oi_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o32ai_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o31ai_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21boi_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a221oi_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__dfxtp_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__dfxtp_4 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__dfxtp_2 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkbuf_16 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__dlygate4sd3_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkdlybuf4s25_1 read from path /home/kushagra/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+  Processed 28748 subcell instances total.
+  Processed 101 pins total.
+  Processed 2 special nets total.
+  Processed 11186 nets total.
+DEF read: Processed 223088 lines.
+Moving label "_00000_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00001_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00002_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00003_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00008_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00010_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00012_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00036_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00038_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00043_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00044_" from metal1 to viali in cell pipelined_processor.
+Moving label "_00065_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00077_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00083_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00084_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00089_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00092_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00096_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00109_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00114_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00121_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00123_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00141_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00147_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00167_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00172_" from metal1 to viali in cell pipelined_processor.
+Moving label "_00181_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00186_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00187_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00193_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00197_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00198_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00204_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00226_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00241_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00269_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00270_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00275_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00287_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00289_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00291_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00298_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00300_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00306_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00311_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00315_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00325_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00326_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00327_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00337_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00340_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00361_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00366_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00374_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00402_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00426_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00442_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00453_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00455_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00461_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00463_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00474_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00490_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00495_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00513_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00517_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00521_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00535_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00559_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00575_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00612_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00614_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00623_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00624_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00631_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_00640_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00641_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00646_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00649_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00650_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00666_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00680_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00688_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00691_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00711_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00721_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00728_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00758_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00782_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00787_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00789_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00815_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00825_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00846_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00847_" from metal1 to viali in cell pipelined_processor.
+Moving label "_00851_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00855_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00861_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00871_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00893_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00897_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00899_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00902_" from metal1 to viali in cell pipelined_processor.
+Moving label "_00904_" from metal1 to viali in cell pipelined_processor.
+Moving label "_00908_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00914_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00919_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00936_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00958_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00961_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00967_" from metal1 to viali in cell pipelined_processor.
+Moving label "_00970_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_00999_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_01031_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01044_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01047_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01061_" from metal1 to viali in cell pipelined_processor.
+Moving label "_01094_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01103_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01110_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01111_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01114_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01116_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01121_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01133_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01141_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01163_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_01165_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01167_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01168_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01169_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01171_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01173_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01179_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01183_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01187_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01200_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01202_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01212_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01230_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01245_" from metal1 to viali in cell pipelined_processor.
+Moving label "_01250_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01255_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01269_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01274_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01276_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01289_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01290_" from metal1 to viali in cell pipelined_processor.
+Moving label "_01293_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01301_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01312_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01321_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01332_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01333_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01351_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01364_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01365_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01368_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01374_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01383_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01409_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01412_" from metal1 to viali in cell pipelined_processor.
+Moving label "_01435_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01436_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01438_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01448_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01466_" from metal1 to viali in cell pipelined_processor.
+Moving label "_01474_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01488_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01513_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01523_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01540_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01544_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01569_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01603_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01613_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01614_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01619_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01625_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01629_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01649_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01654_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01655_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01665_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01680_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01687_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01703_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01707_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01717_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01728_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01729_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01731_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01736_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01756_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01757_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01764_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01782_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01788_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01791_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01796_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01806_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01808_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01810_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_01866_" from metal1 to viali in cell pipelined_processor.
+Moving label "_01958_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_01966_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_02011_" from metal1 to viali in cell pipelined_processor.
+Moving label "_02026_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_02050_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_02066_" from metal1 to viali in cell pipelined_processor.
+Moving label "_02127_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_02142_" from metal1 to viali in cell pipelined_processor.
+Moving label "_02163_" from metal1 to viali in cell pipelined_processor.
+Moving label "_02321_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_02333_" from metal1 to viali in cell pipelined_processor.
+Moving label "_02384_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_02430_" from metal1 to viali in cell pipelined_processor.
+Moving label "_02543_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_02553_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_02688_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_02807_" from metal1 to viali in cell pipelined_processor.
+Moving label "_02808_" from metal3 to via2 in cell pipelined_processor.
+Moving label "_02809_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_02813_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_02834_" from metal1 to viali in cell pipelined_processor.
+Moving label "_02986_" from metal1 to viali in cell pipelined_processor.
+Moving label "_03150_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03151_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03153_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03169_" from metal1 to viali in cell pipelined_processor.
+Moving label "_03172_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_03192_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03216_" from metal1 to viali in cell pipelined_processor.
+Moving label "_03250_" from metal1 to viali in cell pipelined_processor.
+Moving label "_03305_" from metal1 to viali in cell pipelined_processor.
+Moving label "_03316_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_03334_" from metal1 to viali in cell pipelined_processor.
+Moving label "_03364_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03410_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03415_" from metal1 to viali in cell pipelined_processor.
+Moving label "_03462_" from metal1 to viali in cell pipelined_processor.
+Moving label "_03486_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_03487_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_03509_" from metal3 to via3 in cell pipelined_processor.
+Moving label "_03529_" from metal1 to viali in cell pipelined_processor.
+Moving label "_03542_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_03550_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_03551_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03571_" from metal1 to viali in cell pipelined_processor.
+Moving label "_03576_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03618_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03664_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03668_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03685_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03686_" from metal1 to viali in cell pipelined_processor.
+Moving label "_03695_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03709_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03717_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03726_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03734_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_03740_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_03772_" from metal3 to via3 in cell pipelined_processor.
+Moving label "_03784_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03804_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03827_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_03877_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_03918_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_04124_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_04202_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_04292_" from metal1 to viali in cell pipelined_processor.
+Moving label "_04471_" from metal1 to viali in cell pipelined_processor.
+Moving label "_04482_" from metal1 to viali in cell pipelined_processor.
+Moving label "_04486_" from metal1 to viali in cell pipelined_processor.
+Moving label "_04511_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_04552_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_04641_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_04729_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_04744_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_04746_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_04752_" from metal1 to viali in cell pipelined_processor.
+Moving label "_04775_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_04778_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_04794_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_04802_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_04804_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_04839_" from metal1 to viali in cell pipelined_processor.
+Moving label "_04844_" from metal1 to viali in cell pipelined_processor.
+Moving label "_04856_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_04867_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_04917_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_04960_" from metal1 to viali in cell pipelined_processor.
+Moving label "_05012_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_05035_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_05060_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_05062_" from metal1 to viali in cell pipelined_processor.
+Moving label "_05232_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_05347_" from metal1 to viali in cell pipelined_processor.
+Moving label "_05393_" from metal1 to viali in cell pipelined_processor.
+Moving label "_05398_" from metal3 to via3 in cell pipelined_processor.
+Moving label "_05522_" from metal3 to via3 in cell pipelined_processor.
+Moving label "_05533_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_05541_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_05562_" from metal1 to viali in cell pipelined_processor.
+Moving label "_05646_" from metal1 to viali in cell pipelined_processor.
+Moving label "_05649_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_05669_" from metal1 to viali in cell pipelined_processor.
+Moving label "_05684_" from metal1 to viali in cell pipelined_processor.
+Moving label "_05752_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_05753_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_05780_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_05787_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_05797_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_05804_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_05815_" from metal1 to viali in cell pipelined_processor.
+Moving label "_05854_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_05855_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_05895_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_05904_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_05987_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_06013_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_06086_" from metal1 to viali in cell pipelined_processor.
+Moving label "_06099_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_06188_" from metal1 to viali in cell pipelined_processor.
+Moving label "_06213_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_06405_" from metal1 to via1 in cell pipelined_processor.
+Moving label "_06465_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_06533_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_06543_" from metal1 to viali in cell pipelined_processor.
+Moving label "_06661_" from metal1 to viali in cell pipelined_processor.
+Moving label "_06681_" from metal1 to viali in cell pipelined_processor.
+Moving label "_06754_" from metal1 to viali in cell pipelined_processor.
+Moving label "_06794_" from metal1 to viali in cell pipelined_processor.
+Moving label "_06814_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_06830_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_06836_" from metal2 to via1 in cell pipelined_processor.
+Moving label "_06838_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_06850_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_06944_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_06954_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_06964_" from metal3 to via2 in cell pipelined_processor.
+Moving label "_07005_" from metal2 to via2 in cell pipelined_processor.
+Moving label "_07035_" from metal1 to viali in cell pipelined_processor.
+Moving label "_07096_" from metal1 to viali in cell pipelined_processor.
+Moving label "_07111_" from metal2 to via2 in cell pipelined_processor.
+Moving label "clknet_0_clk" from metal2 to via2 in cell pipelined_processor.
+Moving label "clknet_4_12_0_clk" from metal3 to via3 in cell pipelined_processor.
+Moving label "clknet_4_8_0_clk" from metal2 to via2 in cell pipelined_processor.
+Moving label "clknet_leaf_0_clk" from metal1 to via1 in cell pipelined_processor.
+Moving label "clknet_leaf_174_clk" from metal1 to viali in cell pipelined_processor.
+Moving label "clknet_leaf_8_clk" from metal1 to via1 in cell pipelined_processor.
+Moving label "debug_reg_data[10]" from metal2 to via2 in cell pipelined_processor.
+Moving label "dmem.ram\[10\]\[8\]" from metal2 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[11\]\[0\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[11\]\[14\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[11\]\[4\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[11\]\[6\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[12\]\[9\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[13\]\[3\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[13\]\[8\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[17\]\[0\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[17\]\[10\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[17\]\[1\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[17\]\[2\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[17\]\[4\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[18\]\[4\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[1\]\[14\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[1\]\[2\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[1\]\[3\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[1\]\[4\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[22\]\[5\]" from metal2 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[23\]\[10\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[23\]\[14\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[23\]\[15\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[23\]\[7\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[23\]\[9\]" from metal2 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[25\]\[0\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[25\]\[8\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[26\]\[2\]" from metal2 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[29\]\[15\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[29\]\[5\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[31\]\[1\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[31\]\[8\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[35\]\[3\]" from metal2 to via2 in cell pipelined_processor.
+Moving label "dmem.ram\[37\]\[14\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[37\]\[5\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[37\]\[8\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[39\]\[10\]" from metal1 to viali in cell pipelined_processor.
+Moving label "dmem.ram\[39\]\[3\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[39\]\[5\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[39\]\[6\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[39\]\[8\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[3\]\[4\]" from metal2 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[3\]\[5\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[47\]\[10\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[47\]\[5\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[51\]\[2\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[51\]\[3\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[51\]\[7\]" from metal2 to via2 in cell pipelined_processor.
+Moving label "dmem.ram\[54\]\[13\]" from metal2 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[55\]\[10\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[55\]\[11\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[55\]\[14\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[55\]\[15\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[5\]\[13\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[5\]\[3\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[5\]\[8\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[60\]\[15\]" from metal2 to via2 in cell pipelined_processor.
+Moving label "dmem.ram\[61\]\[11\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[61\]\[15\]" from metal2 to via2 in cell pipelined_processor.
+Moving label "dmem.ram\[62\]\[8\]" from metal2 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[63\]\[4\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[63\]\[5\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[63\]\[8\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[7\]\[11\]" from metal2 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[7\]\[4\]" from metal2 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[9\]\[4\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "dmem.ram\[9\]\[5\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "ex_mem_pipe_reg.Rd_Data_Out_PR\[8\]" from metal2 to via2 in cell pipelined_processor.
+Moving label "instr_mem1.rom\[11\]\[6\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "instr_mem1.rom\[4\]\[5\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "instr_mem1.rom\[8\]\[5\]" from metal2 to via2 in cell pipelined_processor.
+Moving label "la_sa_lm_sm_block.reg_data_form_id_128\[16\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "la_sa_lm_sm_block.reg_data_form_id_128\[17\]" from metal1 to viali in cell pipelined_processor.
+Moving label "la_sa_lm_sm_block.reg_data_form_id_128\[18\]" from metal1 to viali in cell pipelined_processor.
+Moving label "la_sa_lm_sm_block.reg_data_form_id_128\[19\]" from metal1 to viali in cell pipelined_processor.
+Moving label "la_sa_lm_sm_block.reg_data_form_id_128\[20\]" from metal1 to viali in cell pipelined_processor.
+Moving label "la_sa_lm_sm_block.reg_data_form_id_128\[22\]" from metal1 to viali in cell pipelined_processor.
+Moving label "la_sa_lm_sm_block.reg_data_form_id_128\[24\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "la_sa_lm_sm_block.reg_data_form_id_128\[27\]" from metal1 to viali in cell pipelined_processor.
+Moving label "la_sa_lm_sm_block.reg_data_form_id_128\[28\]" from metal1 to viali in cell pipelined_processor.
+Moving label "la_sa_lm_sm_block.reg_data_form_id_128\[30\]" from metal1 to viali in cell pipelined_processor.
+Moving label "la_sa_lm_sm_block.reg_data_form_id_128\[31\]" from metal1 to viali in cell pipelined_processor.
+Moving label "la_sa_lm_sm_block.reg_data_form_id_128\[69\]" from metal1 to viali in cell pipelined_processor.
+Moving label "mem_wb_pipeline_reg.Rd_Data_Out_PR\[9\]" from metal3 to via3 in cell pipelined_processor.
+Moving label "net10" from metal2 to via2 in cell pipelined_processor.
+Moving label "net102" from metal1 to via1 in cell pipelined_processor.
+Moving label "net109" from metal1 to via1 in cell pipelined_processor.
+Moving label "net11" from metal2 to via2 in cell pipelined_processor.
+Moving label "net1111" from metal2 to via2 in cell pipelined_processor.
+Moving label "net1137" from metal1 to via1 in cell pipelined_processor.
+Moving label "net1140" from metal1 to viali in cell pipelined_processor.
+Moving label "net1380" from metal1 to viali in cell pipelined_processor.
+Moving label "net142" from metal1 to viali in cell pipelined_processor.
+Moving label "net1532" from metal1 to viali in cell pipelined_processor.
+Moving label "net1544" from metal1 to viali in cell pipelined_processor.
+Moving label "net167" from metal1 to viali in cell pipelined_processor.
+Moving label "net314" from metal1 to via1 in cell pipelined_processor.
+Moving label "net357" from metal1 to viali in cell pipelined_processor.
+Moving label "net380" from metal1 to viali in cell pipelined_processor.
+Moving label "net382" from metal1 to viali in cell pipelined_processor.
+Moving label "net39" from metal3 to via3 in cell pipelined_processor.
+Moving label "net406" from metal2 to via2 in cell pipelined_processor.
+Moving label "net409" from metal1 to via1 in cell pipelined_processor.
+Moving label "net41" from metal2 to via2 in cell pipelined_processor.
+Moving label "net492" from metal1 to via1 in cell pipelined_processor.
+Moving label "net507" from metal1 to via1 in cell pipelined_processor.
+Moving label "net607" from metal1 to via1 in cell pipelined_processor.
+Moving label "net68" from metal2 to via2 in cell pipelined_processor.
+Moving label "net722" from metal1 to viali in cell pipelined_processor.
+Moving label "net754" from metal1 to viali in cell pipelined_processor.
+Moving label "net779" from metal1 to viali in cell pipelined_processor.
+Moving label "net940" from metal2 to via2 in cell pipelined_processor.
+Moving label "pc_out_port[12]" from metal2 to via2 in cell pipelined_processor.
+Moving label "register_file.registerFile\[2\]\[14\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "register_file.registerFile\[2\]\[15\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "register_file.registerFile\[2\]\[4\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "register_file.registerFile\[2\]\[7\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "register_file.registerFile\[5\]\[0\]" from metal1 to via1 in cell pipelined_processor.
+Moving label "register_file.registerFile\[7\]\[7\]" from metal2 to via2 in cell pipelined_processor.
+Moving label "rr_ex_pipe_reg.RF_D1_Out\[2\]" from metal1 to viali in cell pipelined_processor.
+Moving label "rr_ex_pipe_reg.pc_next_out\[3\]" from metal2 to via2 in cell pipelined_processor.
+Moving label "rr_ex_pipe_reg.pc_next_out\[6\]" from metal2 to via2 in cell pipelined_processor.
+Processing pipelined_processor
+Extracting sky130_fd_sc_hd__decap_6 into sky130_fd_sc_hd__decap_6.ext:
+Extracting sky130_ef_sc_hd__decap_12 into sky130_ef_sc_hd__decap_12.ext:
+Extracting sky130_fd_sc_hd__decap_3 into sky130_fd_sc_hd__decap_3.ext:
+Extracting sky130_fd_sc_hd__clkbuf_4 into sky130_fd_sc_hd__clkbuf_4.ext:
+Extracting sky130_fd_sc_hd__fill_1 into sky130_fd_sc_hd__fill_1.ext:
+Extracting sky130_fd_sc_hd__tapvpwrvgnd_1 into sky130_fd_sc_hd__tapvpwrvgnd_1.ext:
+Extracting sky130_fd_sc_hd__decap_8 into sky130_fd_sc_hd__decap_8.ext:
+Extracting sky130_fd_sc_hd__decap_4 into sky130_fd_sc_hd__decap_4.ext:
+Extracting sky130_fd_sc_hd__clkbuf_1 into sky130_fd_sc_hd__clkbuf_1.ext:
+Extracting sky130_fd_sc_hd__a22o_1 into sky130_fd_sc_hd__a22o_1.ext:
+Extracting sky130_fd_sc_hd__dfxtp_1 into sky130_fd_sc_hd__dfxtp_1.ext:
+Extracting sky130_fd_sc_hd__fill_2 into sky130_fd_sc_hd__fill_2.ext:
+Extracting sky130_fd_sc_hd__diode_2 into sky130_fd_sc_hd__diode_2.ext:
+Extracting sky130_fd_sc_hd__dlygate4sd3_1 into sky130_fd_sc_hd__dlygate4sd3_1.ext:
+Extracting sky130_fd_sc_hd__buf_2 into sky130_fd_sc_hd__buf_2.ext:
+Extracting sky130_fd_sc_hd__dfxtp_2 into sky130_fd_sc_hd__dfxtp_2.ext:
+Extracting sky130_fd_sc_hd__buf_1 into sky130_fd_sc_hd__buf_1.ext:
+Extracting sky130_fd_sc_hd__o211a_1 into sky130_fd_sc_hd__o211a_1.ext:
+Extracting sky130_fd_sc_hd__or2_1 into sky130_fd_sc_hd__or2_1.ext:
+Extracting sky130_fd_sc_hd__clkbuf_2 into sky130_fd_sc_hd__clkbuf_2.ext:
+Extracting sky130_fd_sc_hd__nand2_2 into sky130_fd_sc_hd__nand2_2.ext:
+Extracting sky130_fd_sc_hd__and2_1 into sky130_fd_sc_hd__and2_1.ext:
+Extracting sky130_fd_sc_hd__dfxtp_4 into sky130_fd_sc_hd__dfxtp_4.ext:
+Extracting sky130_fd_sc_hd__o21ai_1 into sky130_fd_sc_hd__o21ai_1.ext:
+Extracting sky130_fd_sc_hd__xnor2_1 into sky130_fd_sc_hd__xnor2_1.ext:
+Extracting sky130_fd_sc_hd__nand2_1 into sky130_fd_sc_hd__nand2_1.ext:
+Extracting sky130_fd_sc_hd__mux4_1 into sky130_fd_sc_hd__mux4_1.ext:
+Extracting sky130_fd_sc_hd__clkbuf_16 into sky130_fd_sc_hd__clkbuf_16.ext:
+Extracting sky130_fd_sc_hd__and3_1 into sky130_fd_sc_hd__and3_1.ext:
+Extracting sky130_fd_sc_hd__xnor2_2 into sky130_fd_sc_hd__xnor2_2.ext:
+Extracting sky130_fd_sc_hd__a21o_1 into sky130_fd_sc_hd__a21o_1.ext:
+Extracting sky130_fd_sc_hd__o311a_1 into sky130_fd_sc_hd__o311a_1.ext:
+Extracting sky130_fd_sc_hd__nand3_2 into sky130_fd_sc_hd__nand3_2.ext:
+Extracting sky130_fd_sc_hd__nand3_1 into sky130_fd_sc_hd__nand3_1.ext:
+Extracting sky130_fd_sc_hd__a21bo_1 into sky130_fd_sc_hd__a21bo_1.ext:
+Extracting sky130_fd_sc_hd__or2_2 into sky130_fd_sc_hd__or2_2.ext:
+Extracting sky130_fd_sc_hd__nor2_1 into sky130_fd_sc_hd__nor2_1.ext:
+Extracting sky130_fd_sc_hd__a21oi_1 into sky130_fd_sc_hd__a21oi_1.ext:
+Extracting sky130_fd_sc_hd__or4_1 into sky130_fd_sc_hd__or4_1.ext:
+Extracting sky130_fd_sc_hd__o21ai_2 into sky130_fd_sc_hd__o21ai_2.ext:
+Extracting sky130_fd_sc_hd__a31o_1 into sky130_fd_sc_hd__a31o_1.ext:
+Extracting sky130_fd_sc_hd__a21oi_2 into sky130_fd_sc_hd__a21oi_2.ext:
+Extracting sky130_fd_sc_hd__or2b_1 into sky130_fd_sc_hd__or2b_1.ext:
+Extracting sky130_fd_sc_hd__buf_4 into sky130_fd_sc_hd__buf_4.ext:
+Extracting sky130_fd_sc_hd__or4_2 into sky130_fd_sc_hd__or4_2.ext:
+Extracting sky130_fd_sc_hd__o221a_1 into sky130_fd_sc_hd__o221a_1.ext:
+Extracting sky130_fd_sc_hd__a311o_1 into sky130_fd_sc_hd__a311o_1.ext:
+Extracting sky130_fd_sc_hd__a2bb2o_1 into sky130_fd_sc_hd__a2bb2o_1.ext:
+Extracting sky130_fd_sc_hd__o221ai_4 into sky130_fd_sc_hd__o221ai_4.ext:
+Extracting sky130_fd_sc_hd__o32a_1 into sky130_fd_sc_hd__o32a_1.ext:
+Extracting sky130_fd_sc_hd__o22a_1 into sky130_fd_sc_hd__o22a_1.ext:
+Extracting sky130_fd_sc_hd__dlymetal6s2s_1 into sky130_fd_sc_hd__dlymetal6s2s_1.ext:
+Extracting sky130_fd_sc_hd__o21a_1 into sky130_fd_sc_hd__o21a_1.ext:
+Extracting sky130_fd_sc_hd__inv_2 into sky130_fd_sc_hd__inv_2.ext:
+Extracting sky130_fd_sc_hd__and2b_1 into sky130_fd_sc_hd__and2b_1.ext:
+Extracting sky130_fd_sc_hd__a21o_2 into sky130_fd_sc_hd__a21o_2.ext:
+Extracting sky130_fd_sc_hd__a211o_1 into sky130_fd_sc_hd__a211o_1.ext:
+Extracting sky130_fd_sc_hd__or3_1 into sky130_fd_sc_hd__or3_1.ext:
+Extracting sky130_fd_sc_hd__xor2_1 into sky130_fd_sc_hd__xor2_1.ext:
+Extracting sky130_fd_sc_hd__o21ai_4 into sky130_fd_sc_hd__o21ai_4.ext:
+Extracting sky130_fd_sc_hd__o21ba_2 into sky130_fd_sc_hd__o21ba_2.ext:
+Extracting sky130_fd_sc_hd__o31ai_4 into sky130_fd_sc_hd__o31ai_4.ext:
+Extracting sky130_fd_sc_hd__a21boi_1 into sky130_fd_sc_hd__a21boi_1.ext:
+Extracting sky130_fd_sc_hd__o211ai_2 into sky130_fd_sc_hd__o211ai_2.ext:
+Extracting sky130_fd_sc_hd__mux2_1 into sky130_fd_sc_hd__mux2_1.ext:
+Extracting sky130_fd_sc_hd__a221o_1 into sky130_fd_sc_hd__a221o_1.ext:
+Extracting sky130_fd_sc_hd__or3b_1 into sky130_fd_sc_hd__or3b_1.ext:
+Extracting sky130_fd_sc_hd__o31a_1 into sky130_fd_sc_hd__o31a_1.ext:
+Extracting sky130_fd_sc_hd__o32ai_1 into sky130_fd_sc_hd__o32ai_1.ext:
+Extracting sky130_fd_sc_hd__mux2_4 into sky130_fd_sc_hd__mux2_4.ext:
+Extracting sky130_fd_sc_hd__o22ai_1 into sky130_fd_sc_hd__o22ai_1.ext:
+Extracting sky130_fd_sc_hd__o2bb2a_1 into sky130_fd_sc_hd__o2bb2a_1.ext:
+Extracting sky130_fd_sc_hd__o31ai_2 into sky130_fd_sc_hd__o31ai_2.ext:
+Extracting sky130_fd_sc_hd__a31oi_2 into sky130_fd_sc_hd__a31oi_2.ext:
+Extracting sky130_fd_sc_hd__a22oi_1 into sky130_fd_sc_hd__a22oi_1.ext:
+Extracting sky130_fd_sc_hd__mux2_2 into sky130_fd_sc_hd__mux2_2.ext:
+Extracting sky130_fd_sc_hd__o21ba_1 into sky130_fd_sc_hd__o21ba_1.ext:
+Extracting sky130_fd_sc_hd__a221oi_1 into sky130_fd_sc_hd__a221oi_1.ext:
+Extracting sky130_fd_sc_hd__o2111a_1 into sky130_fd_sc_hd__o2111a_1.ext:
+Extracting sky130_fd_sc_hd__mux2_8 into sky130_fd_sc_hd__mux2_8.ext:
+Extracting sky130_fd_sc_hd__o2111ai_1 into sky130_fd_sc_hd__o2111ai_1.ext:
+Extracting sky130_fd_sc_hd__o21bai_1 into sky130_fd_sc_hd__o21bai_1.ext:
+Extracting sky130_fd_sc_hd__or4_4 into sky130_fd_sc_hd__or4_4.ext:
+Extracting sky130_fd_sc_hd__o21bai_4 into sky130_fd_sc_hd__o21bai_4.ext:
+Extracting sky130_fd_sc_hd__o22ai_2 into sky130_fd_sc_hd__o22ai_2.ext:
+Extracting sky130_fd_sc_hd__xor2_2 into sky130_fd_sc_hd__xor2_2.ext:
+Extracting sky130_fd_sc_hd__nor2_2 into sky130_fd_sc_hd__nor2_2.ext:
+Extracting sky130_fd_sc_hd__or2b_2 into sky130_fd_sc_hd__or2b_2.ext:
+Extracting sky130_fd_sc_hd__a211oi_1 into sky130_fd_sc_hd__a211oi_1.ext:
+Extracting sky130_fd_sc_hd__o211ai_4 into sky130_fd_sc_hd__o211ai_4.ext:
+Extracting sky130_fd_sc_hd__nor2_4 into sky130_fd_sc_hd__nor2_4.ext:
+Extracting sky130_fd_sc_hd__a311o_2 into sky130_fd_sc_hd__a311o_2.ext:
+Extracting sky130_fd_sc_hd__a2111o_1 into sky130_fd_sc_hd__a2111o_1.ext:
+Extracting sky130_fd_sc_hd__and4b_2 into sky130_fd_sc_hd__and4b_2.ext:
+Extracting sky130_fd_sc_hd__a211oi_4 into sky130_fd_sc_hd__a211oi_4.ext:
+Extracting sky130_fd_sc_hd__nand4b_4 into sky130_fd_sc_hd__nand4b_4.ext:
+Extracting sky130_fd_sc_hd__o211ai_1 into sky130_fd_sc_hd__o211ai_1.ext:
+Extracting sky130_fd_sc_hd__o22ai_4 into sky130_fd_sc_hd__o22ai_4.ext:
+Extracting sky130_fd_sc_hd__clkbuf_8 into sky130_fd_sc_hd__clkbuf_8.ext:
+Extracting sky130_fd_sc_hd__a32o_1 into sky130_fd_sc_hd__a32o_1.ext:
+Extracting sky130_fd_sc_hd__and3b_1 into sky130_fd_sc_hd__and3b_1.ext:
+Extracting sky130_fd_sc_hd__a2111oi_1 into sky130_fd_sc_hd__a2111oi_1.ext:
+Extracting sky130_fd_sc_hd__or4b_1 into sky130_fd_sc_hd__or4b_1.ext:
+Extracting sky130_fd_sc_hd__nand2_4 into sky130_fd_sc_hd__nand2_4.ext:
+Extracting sky130_fd_sc_hd__and4b_1 into sky130_fd_sc_hd__and4b_1.ext:
+Extracting sky130_fd_sc_hd__and4_1 into sky130_fd_sc_hd__and4_1.ext:
+Extracting sky130_fd_sc_hd__a41o_1 into sky130_fd_sc_hd__a41o_1.ext:
+Extracting sky130_fd_sc_hd__nor3_1 into sky130_fd_sc_hd__nor3_1.ext:
+Extracting sky130_fd_sc_hd__a21oi_4 into sky130_fd_sc_hd__a21oi_4.ext:
+Extracting sky130_fd_sc_hd__a211o_2 into sky130_fd_sc_hd__a211o_2.ext:
+Extracting sky130_fd_sc_hd__and4bb_2 into sky130_fd_sc_hd__and4bb_2.ext:
+Extracting sky130_fd_sc_hd__or4bb_4 into sky130_fd_sc_hd__or4bb_4.ext:
+Extracting sky130_fd_sc_hd__or3b_2 into sky130_fd_sc_hd__or3b_2.ext:
+Extracting sky130_fd_sc_hd__or3_2 into sky130_fd_sc_hd__or3_2.ext:
+Extracting sky130_fd_sc_hd__nor2b_2 into sky130_fd_sc_hd__nor2b_2.ext:
+Extracting sky130_fd_sc_hd__or3b_4 into sky130_fd_sc_hd__or3b_4.ext:
+Extracting sky130_fd_sc_hd__o311a_2 into sky130_fd_sc_hd__o311a_2.ext:
+Extracting sky130_fd_sc_hd__or4b_2 into sky130_fd_sc_hd__or4b_2.ext:
+Extracting sky130_fd_sc_hd__a211oi_2 into sky130_fd_sc_hd__a211oi_2.ext:
+Extracting sky130_fd_sc_hd__nor3b_1 into sky130_fd_sc_hd__nor3b_1.ext:
+Extracting sky130_fd_sc_hd__and3_2 into sky130_fd_sc_hd__and3_2.ext:
+Extracting sky130_fd_sc_hd__o2bb2a_2 into sky130_fd_sc_hd__o2bb2a_2.ext:
+Extracting sky130_fd_sc_hd__o2111ai_4 into sky130_fd_sc_hd__o2111ai_4.ext:
+Extracting sky130_fd_sc_hd__o21bai_2 into sky130_fd_sc_hd__o21bai_2.ext:
+Extracting sky130_fd_sc_hd__clkdlybuf4s25_1 into sky130_fd_sc_hd__clkdlybuf4s25_1.ext:
+Extracting sky130_fd_sc_hd__a2bb2o_4 into sky130_fd_sc_hd__a2bb2o_4.ext:
+Extracting sky130_fd_sc_hd__or2_4 into sky130_fd_sc_hd__or2_4.ext:
+Extracting sky130_fd_sc_hd__a2bb2o_2 into sky130_fd_sc_hd__a2bb2o_2.ext:
+Extracting sky130_fd_sc_hd__nor2_8 into sky130_fd_sc_hd__nor2_8.ext:
+Extracting sky130_fd_sc_hd__mux4_2 into sky130_fd_sc_hd__mux4_2.ext:
+Extracting sky130_fd_sc_hd__a221oi_4 into sky130_fd_sc_hd__a221oi_4.ext:
+Extracting sky130_fd_sc_hd__clkinv_4 into sky130_fd_sc_hd__clkinv_4.ext:
+Extracting sky130_fd_sc_hd__nor3_4 into sky130_fd_sc_hd__nor3_4.ext:
+Extracting sky130_fd_sc_hd__o211a_2 into sky130_fd_sc_hd__o211a_2.ext:
+Extracting sky130_fd_sc_hd__buf_6 into sky130_fd_sc_hd__buf_6.ext:
+Extracting sky130_fd_sc_hd__o41a_2 into sky130_fd_sc_hd__o41a_2.ext:
+Extracting sky130_fd_sc_hd__nand2b_2 into sky130_fd_sc_hd__nand2b_2.ext:
+Extracting sky130_fd_sc_hd__a31o_2 into sky130_fd_sc_hd__a31o_2.ext:
+Extracting sky130_fd_sc_hd__xnor2_4 into sky130_fd_sc_hd__xnor2_4.ext:
+Extracting sky130_fd_sc_hd__o2bb2ai_4 into sky130_fd_sc_hd__o2bb2ai_4.ext:
+Extracting sky130_fd_sc_hd__a21o_4 into sky130_fd_sc_hd__a21o_4.ext:
+Extracting sky130_fd_sc_hd__xor2_4 into sky130_fd_sc_hd__xor2_4.ext:
+Extracting sky130_fd_sc_hd__nand3_4 into sky130_fd_sc_hd__nand3_4.ext:
+Extracting sky130_fd_sc_hd__o221a_2 into sky130_fd_sc_hd__o221a_2.ext:
+Extracting sky130_fd_sc_hd__a22oi_4 into sky130_fd_sc_hd__a22oi_4.ext:
+Extracting sky130_fd_sc_hd__buf_8 into sky130_fd_sc_hd__buf_8.ext:
+Extracting sky130_fd_sc_hd__o311ai_4 into sky130_fd_sc_hd__o311ai_4.ext:
+Extracting sky130_fd_sc_hd__and2_2 into sky130_fd_sc_hd__and2_2.ext:
+Extracting sky130_fd_sc_hd__o31ai_1 into sky130_fd_sc_hd__o31ai_1.ext:
+Extracting sky130_fd_sc_hd__o31a_2 into sky130_fd_sc_hd__o31a_2.ext:
+Extracting sky130_fd_sc_hd__inv_6 into sky130_fd_sc_hd__inv_6.ext:
+Extracting pipelined_processor into pipelined_processor.ext:
+exttospice finished.

@@ -1,0 +1,30 @@
+%Warning-EOFNEWLINE: /openlane/designs/my_processor/src/ALU.v:40:10: Missing newline at end of file (POSIX 3.206).
+                                                                   : ... Suggest add newline.
+   40 | endmodule
+      |          ^
+                     ... For warning description see https://verilator.org/warn/EOFNEWLINE?v=5.009
+                     ... Use "/* verilator lint_off EOFNEWLINE */" and lint_on around source to disable this message.
+%Warning-EOFNEWLINE: /openlane/designs/my_processor/src/aluCtrl.v:108:10: Missing newline at end of file (POSIX 3.206).
+                                                                        : ... Suggest add newline.
+  108 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/my_processor/src/frwdingCntrl.v:33:10: Missing newline at end of file (POSIX 3.206).
+                                                                            : ... Suggest add newline.
+   33 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/my_processor/src/registerBank.v:68:10: Missing newline at end of file (POSIX 3.206).
+                                                                            : ... Suggest add newline.
+   68 | endmodule
+      |          ^
+%Error: Cannot find file containing module: /openlane/designs/my_processor/src/memory.v
+%Error: This may be because there's no search path specified with -I<dir>.
+        ... Looked in:
+             /openlane/designs/my_processor/src/memory.v
+             /openlane/designs/my_processor/src/memory.v.v
+             /openlane/designs/my_processor/src/memory.v.sv
+             obj_dir//openlane/designs/my_processor/src/memory.v
+             obj_dir//openlane/designs/my_processor/src/memory.v.v
+             obj_dir//openlane/designs/my_processor/src/memory.v.sv
+%Error: Cannot find file containing module: /openlane/designs/my_processor/src/pipeline_regs.v
+%Error: Cannot find file containing module: /openlane/designs/my_processor/src/processor.v
+%Error: Exiting due to 4 error(s)

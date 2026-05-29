@@ -1,0 +1,4 @@
+%Error: /openlane/designs/my_processor/new_src/topModule.v:349:25: syntax error, unexpected '('
+  349 |                         (ir_from_rr_ex[15:12] == 4'b1011);
+      |                         ^
+%Error: Exiting due to 1 error(s)

@@ -1,0 +1,32 @@
+{
+  "DESIGN_NAME": "pipelined_processor",
+
+  "VERILOG_FILES": [
+    "dir::new_src/ALU.v",
+    "dir::new_src/aluCtrl.v",
+    "dir::new_src/ctrlUnit.v",
+    "dir::new_src/registerBank.v",
+    "dir::new_src/branchJumpCtrl.v",
+    "dir::new_src/dataMem.v",
+    "dir::new_src/InstrMem.v",
+    "dir::new_src/mux.v",
+    "dir::new_src/Stage12_IF2ID.v",
+    "dir::new_src/Stage23_ID2RR.v",
+    "dir::new_src/Stage34_RR2EX.v",
+    "dir::new_src/Stage45_EX2MM.v",
+    "dir::new_src/Stage56_MM2WB.v",
+    "dir::new_src/topModule.v"
+  ],
+
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 20,
+
+  "FP_CORE_UTIL": 25,
+  "PL_TARGET_DENSITY": 0.45,
+
+  "FP_ASPECT_RATIO": 1,
+
+  "DIODE_INSERTION_STRATEGY": 3,
+
+  "MAX_FANOUT_CONSTRAINT": 4
+}
